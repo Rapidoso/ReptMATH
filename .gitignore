@@ -2,6 +2,9 @@
 # Imágenes de la Página:
 visual_elements/*images
 
+# Y mi archivo de Affinity Designer:
+visual_elements/*icons.afdesign
+
 # Los íconos al ser svg los voy a dejar en el repositorio
 # Ya que los SVG, se consideran como texto plano
 !visual_elements/reptmath_icons

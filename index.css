@@ -239,8 +239,6 @@ body{
     vertical-align: middle;
 }
 
-
-
 .footer_repositorio{
     vertical-align: middle;
     margin-bottom: 0px;
@@ -251,7 +249,7 @@ body{
 }
 
 .footer_repositorio:hover{
-    color: #BCFFCB;
+    color: #E7FFEC;
     transition: color 0.1s linear 0.1s;
 }
 

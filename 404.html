@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Error 404</title>
+
+    <style>
+
+        /*
+    Paleta de Colores Mate:
+    - Café Claro: #ffdecf;
+    - Café Normal: #ba7967;
+    - Gris Claro: #5e6f64;
+    - Gris Oscuro: #3f4441;
+
+    Paleta de Colores Chemistry:
+    - Crema: #f5eaea;
+    - Verde: #7fcd91;
+    - Gris no tan claro: #5b5656:
+    - Gris Oscuro: #4d4646;
+
+    - Verde Claro Resaltante #E7FFEC;
+    */
+
+
+        body{
+            background-color: black;
+            justify-content: center;
+        }
+
+
+        /* HERO */
+
+
+        .hero{
+            justify-content: center;
+        }
+
+        .hero_container{  
+            text-align: center;
+        }
+
+        .hero_logo{
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+
+        .hero_error{
+            font-family: Roboto;
+            color: white;
+            font-weight: 100;
+            font-size: 5rem;
+            margin-top: 0;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+
+        .hero_error strong{
+            font-family: Anton;
+            font-weight: 200;
+        }
+
+
+        /* HERO */
+
+
+        .barra{
+            margin-top: 0;
+            width: 450px;
+            border: 10;
+            border-color: white;
+            background-color: white;
+        }
+
+
+        /* EXPLICATION */
+
+
+        .explication{
+            display: flex;
+            justify-content: center;
+            font-weight: 100;
+        }
+
+        .explication_container{
+            width: 700px;
+            justify-content: center;
+            margin-top: 30px;
+            color: white;
+            font-family: "Roboto Light";
+            font-size: 20px;
+            letter-spacing: 1.2px;
+            line-height: 1.5rem;
+        }
+
+        .explication_text{
+            margin-top: 0;
+        }
+
+        .explication_hacker{
+
+        }
+
+
+         /* EXPLICATION */
+
+
+         .github{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+         .github a{
+            text-decoration: none;
+         }
+
+         .github_container{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+         }
+
+         .github_logo{
+            width: 70px;
+         }
+
+         .github_text{
+            color: white;
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 1.8rem;
+            letter-spacing: 1.5px;
+         }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="hero_container">
+            <a href="index.html"><img class="hero_logo" src="visual_elements/reptmath_icons/logo_light.svg" alt="Logo de ReptMATH light"></a>
+            <h1 class="hero_error"><strong>Error</strong> 404</h1>
+        </div>
+    </section>
+
+        <hr class="barra">
+
+    <section class="explication">
+        <div class="explication_container">
+            <p class="explication_text">
+                Lo siento... Este es un proyecto para mi uso personal (y además lo aprovecho
+                para aprender acerca de fronted y esas cosas), sin embargo, como me gusta que
+                los demás puedan aprovecharlo, pues lo publiqué. Sin embargo, aún estando en el
+                super sistema Educativo Mexicano, no tengo el suficiente tiempo de completarlo
+                rápidamente. Por lo cual, si es usuario común... <strong>PERDÓN XD</strong></p>
+            <p class="explication_hacker">
+                Pero, si sabe algo de Fronted y Programación en Javascript, le animo a que vaya
+                al repositorio de GitHub del proyecto para contribuir con un fork, haré mi mayor
+                esfuerzo para estar al tanto de sus commits requests (a los que contribuyan los
+                pondré en la sección de info como agradecimientos).
+            </p>
+        </div>
+    </section>
+
+    <section class="github">
+        <a href="https://github.com/Rapidoso/ReptMATH"><div class="github_container">
+            <figure class="github_logo">
+                <img src="visual_elements/resources/github_icon.svg">
+            </figure>
+            <p class="github_text">Rapidoso / ReptMATH</p>
+        </div></a>
+    </section>
+    
+</body>
+</html>
